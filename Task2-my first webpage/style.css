@@ -1,0 +1,47 @@
+*{
+    background-color: #FFFFCC;
+    font-family: sans-serif;
+
+}
+h1{
+    text-align: center;
+    background-color: rgb(153,0,0);
+    color: #FFFFCC;
+    border-bottom: 12px solid #CC0000;
+    letter-spacing: 15px;
+    font-style: italic;
+
+}
+h2{
+    background-color: #009900;
+    color: #FFFFCC;
+    padding-left: 10px;
+}
+ul{
+    color: #e44b33;
+}
+a{
+    text-decoration: none;
+}
+#google{
+    border: 2px rgb(179, 175, 175) dotted;
+    padding: 26px 24px 22px;
+    background: white;
+    padding-right: 60px;
+}
+h3{
+    color: grey;
+}
+table{
+    background-color: rgb(202, 198, 198);
+    
+}
+table td{
+    background-color: rgb(202, 198, 198);
+}
+#name{
+    background-color: white;
+}
+#submit{
+    background-color: rgb(211, 208, 208);
+}
