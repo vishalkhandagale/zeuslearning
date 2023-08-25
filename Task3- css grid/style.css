@@ -1,0 +1,67 @@
+.wrapper{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 200px auto auto;
+    grid-template-rows: 100px auto auto 120px;
+}
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #EEEEEE;
+    color: white;
+  }
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.header{
+    background-image: linear-gradient(to bottom right, #6C52D9, #907DE3);
+    
+    grid-column: 1 / 4;
+    text-align: center;
+    vertical-align: middle;
+    
+
+    
+
+}
+.slidebar{
+    background-image: linear-gradient(to top right, #29A49D, #3DDED6);
+   
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+
+}
+.container-1{
+background-image: linear-gradient(to bottom right, #6A52D6, #3AD3CD);
+
+grid-column-start: 2;
+grid-column-end: 4;
+}
+.container-2{
+background-image: linear-gradient(to bottom right, #6A52D6, #3AD3CD);
+
+grid-column-start: 2;
+grid-column-end: 3;
+}
+.container-3{
+background-image: linear-gradient(to bottom right, #6A52D6, #3AD3CD);
+
+grid-column-start: 3;
+grid-column-end: 4;
+}
+.footer{
+background-image: linear-gradient(to bottom right, #6C52D9, #907DE3);
+
+grid-column-start: 1;
+grid-column-end: 4;
+
+}
