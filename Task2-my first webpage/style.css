@@ -8,7 +8,7 @@ h1{
     background-color: rgb(153,0,0);
     color: #FFFFCC;
     border-bottom: 12px solid #CC0000;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     font-style: italic;
 
 }
@@ -18,7 +18,8 @@ h2{
     padding-left: 10px;
 }
 ul{
-    color: #e44b33;
+    color: #bd3924;
+    font-style: italic;
 }
 a{
     text-decoration: none;
@@ -44,4 +45,5 @@ table td{
 }
 #submit{
     background-color: rgb(211, 208, 208);
+    border: 1px grey solid;
 }
