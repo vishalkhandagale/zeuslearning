@@ -33,7 +33,7 @@ footer{
     border-top: 4px solid rgb(0, 227, 243) ;
 
 }
-.container-header{
+.container-of-header{
     display: flex;
     font-family: 'Quicksand';
     font-size: 17px;
@@ -46,6 +46,10 @@ footer{
 #login-head{
     margin-left: 110px;
 
+}
+
+#ancor-back{
+    display: flex;
 }
 ul li{
     font-family: 'Quicksand';
@@ -86,7 +90,7 @@ ul li.selected::before{
     font-weight: 400;
     font-size: 14px;
  }
- .locationSelector{
+ .location-selector{
     display: flex;
     flex-direction: column;
     padding: 5px 22px;
@@ -100,7 +104,7 @@ ul li.selected::before{
     font-size: 17px;
 
  }
- .Inputs{
+ .user-name, .password{
     border: none;
     border-bottom: 2px solid rgb(216, 215, 215);
     font-family: 'Quicksand';
@@ -123,8 +127,9 @@ p.username{
 }
 #preview{
     width: 26px;
-    margin-top: -30px;
-    margin-left: 472px;
+    margin-top: -26px;
+    margin-left: 476px;
+    cursor: pointer;
 }
 .remember{
     display: flex;
@@ -149,13 +154,14 @@ p.username{
     font-size: 17px;
     border-radius: 3px;
     margin-bottom: 25px;
+    cursor: pointer;
 
 }
 .button{
     display: flex;
     justify-content: center;
 }
-.footerfont{
+.footer-font{
     font-family: 'Quicksand';
     font-weight: 400;
     padding: 0 10px;
@@ -179,10 +185,19 @@ p.username{
     justify-content: center;
     margin-bottom: 0px;
 }
-.greencolor{
+.green-color{
     color: #1F7A54;
     padding: 0 10px;
     font-family: 'Quicksand';
     font-weight: 600;
+}
+
+.pass-checked{
+    cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
 }
 
