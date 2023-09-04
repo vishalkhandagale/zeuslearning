@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/style.css.map">
+    <link rel="stylesheet" href="styles/Dashboard.css">
+    <link rel="stylesheet" href="styles/Dashboard.css.map">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
@@ -15,18 +15,18 @@
 
 <body>
     <div class="header">
-        <img src="img/Quantum Logo.svg" alt="Quantum Logo">
+        <img src="img/QuantumLogo.svg" alt="Quantum Logo">
         <ul class="NavBar">
             <div class="nav">
                 <div class="topNav">
-                    <li class="whitetext">DASHBOARD</li>
+                    <li class="selected">DASHBOARD</li>
                     <li>CONTENT</li>
                     <li>USERS</li>
                     <li>REPORTS</li>
                     <li>ADMIN</li>
                 </div>
                 <div class="navIcons">
-                    <li><img src="files/icons/alerts.svg" alt=""><span class="count">2</span> </li>
+                    <li class="alert-image"><img src="files/icons/alerts.svg" class="alert-image" alt=""><span class="count">2</span> </li>
                     <li><img src="files/icons/announcements.svg" alt=""><span class="count">1</span> </li>
                     <li><img id="profile-photo" src="img/vishal.jpg" alt=""><span class="profile">T</span> </li>
                     <li class="ham"><img src="files/icons/hamburger-menu.svg" alt=""></li>
@@ -54,8 +54,8 @@
             <label for="state" class="textCount">Sort By</label>
             <select class="sortDropdown" value="state" name="state">
                 <option value="s1">Course Name</option>
-                <option value="s1">s1</option>
-                <option value="s1">s1</option>
+                <option value="s1">Course Id</option>
+                <option value="s1">Teacher</option>
             </select>
             <img class="sortImage" src="files/icons/sort.svg" alt="">
         </span>
@@ -71,8 +71,8 @@
                     <p class="sylabus"><b>4</b> Units <b>18</b> Lessons <b>24</b> Topics</p>
                     <select class="teacher" value="state" name="state">
                         <option value="s1">Mr. Frank's Class B</option>
-                        <option value="s1">Class 1</option>
-                        <option value="s1">Class 2</option>
+                        <option value="s1">Mr. Frank's Class A</option>
+                        <option value="s1">Mr. Json's Class A</option>
                     </select>
                     <p class="Scount-Date"><span class="studentCount">50</span> Students | <span
                             class="dateFrom">21-Jan-2020</span> - <span class="dateTo">21-Aug-2020</span></p>
@@ -100,8 +100,8 @@
                     <p class="sylabus"><b>2</b> Units <b>15</b> Lessons <b>20</b> Topics</p>
                     <select class="teacher" value="state" name="state">
                         <option value="s1">No Class</option>
-                        <option value="s1">Class 1</option>
-                        <option value="s1">Class 2</option>
+                       <!--<option value="s1">Class 1</option>
+                        <option value="s1">Class 2</option>--> 
                     </select>
                     <p class="Scount-Date"><span class="studentCount"></span><span class="dateFrom"></span><span
                             class="dateTo"></span></p>
@@ -129,8 +129,8 @@
                     <p class="sylabus"><b>5</b> Units <b>16</b> Lessons <b>22</b> Topics</p>
                     <select class="teacher" value="state" name="state">
                         <option value="s1">All Classes</option>
-                        <option value="s1">Class 1</option>
-                        <option value="s1">Class 2</option>
+                        <option value="s1">Mr. Json's Class A</option>
+                       <!--<option value="s1">Class 2</option>--> 
                     </select>
                     <p class="Scount-Date"><span class="studentCount">300</span> Students<span class="dateFrom"></span>
                         <span class="dateTo"></span></p>
@@ -157,8 +157,8 @@
                     <p class="sylabus"><b>4</b> Units <b>18</b> Lessons <b>24</b> Topics</p>
                     <select class="teacher" value="state" name="state">
                         <option value="s1">Mr. Frank's Class A</option>
-                        <option value="s1">Class 1</option>
-                        <option value="s1">Class 2</option>
+                        <option value="s1">Mr. Frank's Class B</option>
+                        <option value="s1">Mr. Json's Class A</option>
                     </select>
                     <p class="Scount-Date"><span class="studentCount">44</span> Students | <span
                             class="dateFrom">14-Oct-2019</span> - <span class="dateTo">20-Oct-2020</span></p>
