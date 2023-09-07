@@ -3,7 +3,8 @@ function show1() {
     if (a) {
         a.classList.toggle("hide");
     }
-}
+} 
+
 function show2() {
     var a = document.getElementById("user");
     if (a) {
@@ -22,6 +23,24 @@ function show4() {
         a.classList.toggle("hide");
     }
 }
+
+function courseToggel() {
+    var a = document.getElementById('courses');
+    var b = document.getElementById('classes');
+    var c = document.getElementById("course-container");
+    a.classList.add("selected-courses-classes");
+    b.classList.remove("selected-courses-classes");
+    c.classList.remove("hide");
+}
+function classToggel() {
+    var a = document.getElementById('courses');
+    var b = document.getElementById('classes');
+    var c = document.getElementById("course-container");
+    b.classList.add("selected-courses-classes");
+    a.classList.remove("selected-courses-classes");
+    c.classList.add("hide");
+}
+
 var toggle = document.getElementsByClassName("navbar-toggler")[0];
 var navbar = document.getElementsByClassName("navbar-nav")[0];
 var onnav = false;
@@ -89,3 +108,5 @@ function hideAnnouncements() {
         }
     }, 100);
 }
+
+

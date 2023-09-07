@@ -1,3 +1,7 @@
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
 * {
     font-family: 'Quicksand';
 }
@@ -13,6 +17,8 @@ body {
     background-color: rgb(238, 238, 238);
     display: flex;
     flex-direction: column;
+    position: relative;
+    
 
 }
 
@@ -24,6 +30,9 @@ body {
     padding-top: 2px;
 
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000000000;
 }
 
 #profile-photo {
@@ -33,7 +42,7 @@ body {
     margin-bottom: -5px;
 }
 
-.NavBar {
+.nav-bar {
     list-style-type: none;
     margin-left: auto;
     margin-top: 0px;
@@ -90,6 +99,8 @@ span.profile {
 
 }
 
+
+
 .courses,
 .classes {
     display: flex;
@@ -102,8 +113,15 @@ span.profile {
 
 }
 
-.courses {
+.selected-courses-classes {
     border-bottom: 3px solid black;
+}
+
+.course-class-image{
+    height: 43px;
+    width: 45px;
+    top: 10;
+    margin-top: 10px;
 }
 
 .pad5 {
@@ -116,18 +134,18 @@ span.profile {
     margin-bottom: auto;
 }
 
-.textCount {
+.text-count {
     font-size: 15px;
 }
 
-.courseCard {
+.course-card {
     display: flex;
     min-height: 176px;
 
 
 }
 
-.courseActions {
+.course-actions {
     border-top: 1px solid rgb(236, 233, 233);
     display: flex;
     justify-content: space-around;
@@ -136,7 +154,7 @@ span.profile {
 
 }
 
-.courseActions img {
+.course-actions img {
     cursor: pointer;
 }
 
@@ -153,7 +171,7 @@ span.profile {
     justify-content: center;
 }
 
-.courseWrapper {
+.course-wrapper {
     width: 540px;
     background-color: white;
     padding: 20px;
@@ -164,7 +182,7 @@ span.profile {
 
 }
 
-.courseDetails {
+.course-details {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -173,7 +191,7 @@ span.profile {
 
 }
 
-.courseName {
+.course-name {
     font-weight: 700;
     margin-top: -8px;
     flex: 1;
@@ -181,7 +199,7 @@ span.profile {
 
 }
 
-.subjectGrade {
+.subject-grade {
     margin-top: -8px;
     font-size: small;
 
@@ -220,7 +238,7 @@ span.profile {
     cursor: pointer;
 }
 
-.footerfont {
+.footer-font {
     font-family: 'Quicksand';
     font-weight: 400;
     padding: 0 10px;
@@ -249,7 +267,7 @@ span.profile {
     margin-bottom: 0px;
 }
 
-.greencolorFoot {
+.greencolor-foot {
     color: #1F7A54;
     padding: 0 10px;
     font-family: 'Quicksand';
@@ -270,7 +288,7 @@ span.profile {
 }
 
 
-.textC {
+.text-c {
     display: flex;
     justify-content: space-between;
     margin: 20px;
@@ -284,7 +302,7 @@ span.profile {
     padding: 15px;
 }
 
-.sortDropdown {
+.sort-dropdown {
     border: none;
     border-bottom: 1px solid grey;
     background: none;
@@ -294,7 +312,7 @@ span.profile {
 
 }
 
-.sortImage {
+.sort-image {
     padding: 0 5px;
 }
 
@@ -304,7 +322,7 @@ span.profile {
 
 }
 
-.navIcons {
+.nav-icons {
     display: flex;
     flex-wrap: nowrap;
     align-items: end;
@@ -343,8 +361,8 @@ a {
     flex-direction: column;
     width: 280px;
     position: absolute;
-    top: 40px;
-    right: 16px;
+    top: 50px;
+    right: 0px;
     z-index: 1;
     color: #1F7A54;
     font-weight: 600;
